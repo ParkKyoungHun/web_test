@@ -11,7 +11,6 @@ function makeButton(){
 	var initNum = document.getElementById("initNum").value;
 	var maxNum = document.getElementById("maxNum").value;
 	var result = "";
-	var resultDiv = document.getElementById("resultDiv").value;
 	for(i=initNum;i<maxNum;i++){
 		result += "<input type = 'button' value = '»ý¼º' onclick = 'makeButton()'/>";
 	}
